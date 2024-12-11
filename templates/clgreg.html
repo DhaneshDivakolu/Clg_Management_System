@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QIS Clg</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div class="emp-div">
+            <form action="/emp_data" method="post">
+                <h1>Employe's Registration</h1>
+                <label class="attribute">Employe_ID :</label>
+                <input type="text" required placeholder="Employe_ID: " name="e_id">
+                <label class="attribute">Password: </label>
+                <input type = "password" required placeholder = "Password: " name = "e_pwd">
+                <button id="login" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="stu-div">
+            <form action="/stu_data" method="post">
+                <h1>Students's Registration</h1>
+                <label class="attribute">Employe_ID :</label>
+                <input type="text" required placeholder="Student_ID: " name="s_id">
+                <label class="attribute">Password: </label>
+                <input type = "password" required placeholder = "Password: " name = "s_pwd">
+                <button id="login" type="submit">Register</button>
+            </form>
+        </div>    
+    </body>
+</html>

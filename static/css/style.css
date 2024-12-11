@@ -1,0 +1,87 @@
+.emp-div, .stu-div{
+    float: left;
+    width: 35%;
+    background-color: rgb(107, 107, 197);
+    border: 2px solid black;
+    margin: 15% 8% 10% 6%;
+    border-radius: 10%;
+}
+.emp-div h1, .stu-div h1{
+    font-size: 40px;
+    text-align: center;
+}
+.emp-div input, .stu-div input{
+    float: left;
+    width: 60%;
+    margin: -7% 5% 4% 35%;
+    font-size: 30px;
+}
+#login{
+    float: left;
+    width: 40%;
+    margin: 3% 28% 7% 28%;
+    padding: 1% 0% 1% 0%;
+    background-color: lightblue;
+}
+.attribute{
+    float: left;
+    width: 40%;
+    font-size: 30px;
+    margin: 1% 0% 2% 0%;
+}
+.sinf-div{
+    float: left;
+    width: 90%;
+    margin: 0% 2% 1% 2.5%;
+    background-color: plum;
+}
+.sinf-div label{
+    float: left;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin: 1%;
+}
+.sinf-div input{
+    float: left;
+    width: 67%;
+    background-color: aliceblue;
+    font-size: 30px;
+    margin: 1% 0% 1% 0%;
+}
+.sinf-div button{                                    
+    float: left;
+    display: inline;
+    width: 20%;
+    margin: 1% 5.5% 1% 7%;
+    font-size: 30px;
+    text-align: center;
+}
+#gender{
+    float: left;
+    width: 67%;
+    font-size: 30px;
+    margin: 1% 0% 1% 0%;
+    background-color: aliceblue;
+}
+.dha{
+    float: left;
+    width: 45%;
+    margin: 7% 0% 4% 4%;
+    font-size: 30px;
+}
+.dha input{
+    float: left;
+    width: 67%;
+    background-color: aliceblue;
+    font-size: 30px;
+    margin: 1% 0% 1% 0%;
+}
+.dha button{                                    
+    float: left;
+    display: inline;
+    width: 20%;
+    margin: 1% 5.5% 1% 7%;
+    font-size: 30px;
+    text-align: center;
+}
